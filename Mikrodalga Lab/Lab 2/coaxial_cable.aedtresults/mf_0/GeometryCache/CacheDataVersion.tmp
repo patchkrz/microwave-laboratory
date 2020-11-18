@@ -1,0 +1,10 @@
+$begin 'CacheDataVersion'
+	DataVersion=-1
+$end 'CacheDataVersion'
+$begin 'VariableValues'
+	pin_R='2mm'
+	pinH='10mm'
+	teflon_R='6.7mm'
+	teflonH='8mm'
+	outer_R='7mm'
+$end 'VariableValues'

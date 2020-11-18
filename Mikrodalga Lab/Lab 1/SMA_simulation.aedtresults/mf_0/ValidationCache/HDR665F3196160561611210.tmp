@@ -1,0 +1,7 @@
+$begin 'ValidationCache'
+	$begin 'OneValidationResult'
+		Variation='g=\'0.20000000000000001mm\' MW=\'1.8mm\' subH=\'1.5mm\' subX=\'20mm\' subY=\'30mm\''
+		Status=false
+		FileName='VI9F1220816056181704.tmp'
+	$end 'OneValidationResult'
+$end 'ValidationCache'

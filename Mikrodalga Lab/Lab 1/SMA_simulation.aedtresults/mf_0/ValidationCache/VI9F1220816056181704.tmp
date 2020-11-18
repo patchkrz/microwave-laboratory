@@ -1,0 +1,10 @@
+<ValidationInfo>
+  <DesignValid>false</DesignValid>
+  <IgnoreUnclassifiedObjects>false</IgnoreUnclassifiedObjects>
+  <SkipIntersectionChecks>false</SkipIntersectionChecks>
+  <EntityCheckLevel>Strict</EntityCheckLevel>
+  <ValidationLevel>Perform full validations with standard port validations</ValidationLevel>
+  <Messages>
+    <Message>[error] Solution Setup: No solution setups have been created.</Message>
+  </Messages>
+</ValidationInfo>

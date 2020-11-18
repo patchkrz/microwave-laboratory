@@ -1,0 +1,208 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002020, month=000000000011, day=000000000018, hour=000000000011, min=000000000044, sec=000000000047)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000005408, lin=000000000188, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock1'
+	ProductName=''
+	CircuitName='HFSSDesign1'
+	VersionID=32
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=107
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='outer_R=\'5.5mm\' pin_R=\'2mm\' pinH=\'10mm\' teflon_R=\'4mm\' teflonH=\'8mm\'', ID=37)
+		Map(V='outer_R=\'7mm\' pin_R=\'2mm\' pinH=\'10mm\' teflon_R=\'6.7000000000000002mm\' teflonH=\'8mm\'', ID=105)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=37, Ver=32, Dir='DV37_V32.imesh/')
+		M(VID=105, Ver=32, Dir='DV105_V32.imesh/')
+	$end 'InitialMeshes'
+	MeshAssemVersionID=54
+	$begin 'NextAssemVersionID'
+		NextUniqueID=55
+		MoveBackwards=false
+	$end 'NextAssemVersionID'
+	$begin 'DefinitionMeshes'
+		$begin 'DefMeshes_Comp-1'
+			DefinitionID=-1
+			VersionID=53
+			VIDMap('outer_R=\'5.5mm\' pin_R=\'2mm\' pinH=\'10mm\' teflon_R=\'4mm\' teflonH=\'8mm\'', 92, 'outer_R=\'7mm\' pin_R=\'2mm\' pinH=\'10mm\' teflon_R=\'6.7000000000000002mm\' teflonH=\'8mm\'', 106)
+			DM(VID=92, Ver=53, Dir='NDV92_V53.dmesh/')
+			DM(VID=106, Ver=53, Dir='NDV106_V53.dmesh/')
+		$end 'DefMeshes_Comp-1'
+	$end 'DefinitionMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=37, Ver=32, Dir='DV37_MI0_V32.sd/')
+			MI(VID=105, Ver=32, Dir='DV105_MI0_V32.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock1'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=34, Instance=\'SetupDefinition\', Solution=-1, VersionID=0)'='SolutionBlock4'
+	'SolutionKey(SimSetup=34, Instance=\'SolutionDefinition\', Solution=35, VersionID=0)'='SolutionBlock2'
+	'SolutionKey(SimSetup=34, Instance=\'SolutionDefinition\', Solution=36, VersionID=0)'='SolutionBlock3'
+$end 'BlockMapName'
+$begin 'SolutionBlock4'
+	SimSetupID=34
+	SimSetupName='Setup1'
+	VersionID=0
+	$begin 'EmConvergenceData'
+		EmConv(VID=37, Ver=0, EmConv='DV37_S34_V0.EMConvData')
+		EmConv(VID=105, Ver=0, EmConv='DV105_S34_V0.EMConvData')
+	$end 'EmConvergenceData'
+	IsImported=false
+	IsTable=false
+	SolveSetupID=0
+	$begin 'CurrMeshes'
+		M(VID=37, Ver=0, Dir='DV37_S34_V0.cmesh/')
+		M(VID=105, Ver=0, Dir='DV105_S34_V0.cmesh/')
+	$end 'CurrMeshes'
+	MeshAssemVersionID=0
+	$begin 'NextAssemVersionID'
+		NextUniqueID=1
+		MoveBackwards=false
+	$end 'NextAssemVersionID'
+	$begin 'ADP'
+		$begin 'SubData'
+			ID=0
+			ADP(VID=37, Ver=0, Dir='DV37_S34_ADP0_V0.sd/')
+			ADP(VID=105, Ver=0, Dir='DV105_S34_ADP0_V0.sd/')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=1
+			ADP(VID=37, Ver=0, Dir='DV37_S34_ADP1_V0.sd/')
+			ADP(VID=105, Ver=0, Dir='DV105_S34_ADP1_V0.sd/')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			ADP(VID=37, Ver=0, Dir='DV37_S34_ADP2_V0.sd/')
+			ADP(VID=105, Ver=0, Dir='DV105_S34_ADP2_V0.sd/')
+		$end 'SubData'
+	$end 'ADP'
+	$begin 'SU'
+		$begin 'SubData'
+			ID=1
+			SU(VID=37, Ver=0, File='DV37_S34_SD1_V0.su')
+			SU(VID=105, Ver=0, File='DV105_S34_SD1_V0.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			SU(VID=37, Ver=0, File='DV37_S34_SD2_V0.su')
+			SU(VID=105, Ver=0, File='DV105_S34_SD2_V0.su')
+		$end 'SubData'
+	$end 'SU'
+	$begin 'WaveAdapt'
+		WA(VID=37, Ver=0, A=1)
+		WA(VID=105, Ver=0, A=1)
+	$end 'WaveAdapt'
+	$begin 'LastPassNumbers'
+		LP(VID=37, Ver=0, P=2)
+		LP(VID=105, Ver=0, P=2)
+	$end 'LastPassNumbers'
+	$begin 'Profiles'
+		P(VID=37, Ver=0, File='DV37_S34_V0.profile')
+		P(VID=105, Ver=0, File='DV105_S34_V0.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=37, Ver=0, Dir='DV37_S34_MI0_V0.sd/')
+			MI(VID=105, Ver=0, Dir='DV105_S34_MI0_V0.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock4'
+$begin 'SolutionBlock3'
+	SolutionName='LastAdaptive'
+	SolutionID=36
+	V=0
+	$begin 'States'
+		F(VID=37, Ver=0)
+		F(VID=105, Ver=0)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(1000000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=0
+			M(VID=37, Ver=0, File='DV37_SOL36_M0_V0.sd')
+			M(VID=105, Ver=0, File='DV105_SOL36_M0_V0.sd')
+		$end 'SubData'
+	$end 'M'
+	$begin 'Fields'
+		IDDblMap(97, 1000000000)
+		$begin 'DataMap'
+			VID=37
+			Ver=0
+			F(DblID=97, Dir='DV37_S36_V0_F97/')
+		$end 'DataMap'
+		$begin 'DataMap'
+			VID=105
+			Ver=0
+			F(DblID=97, Dir='DV105_S36_V0_F97/')
+		$end 'DataMap'
+	$end 'Fields'
+$end 'SolutionBlock3'
+$begin 'SolutionBlock2'
+	SolutionName='AdaptivePass'
+	SolutionID=35
+	V=0
+	$begin 'States'
+		F(VID=37, Ver=0)
+		F(VID=105, Ver=0)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(1000000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=1
+			M(VID=37, Ver=0, File='DV37_SOL35_M1_V0.sd')
+			M(VID=105, Ver=0, File='DV105_SOL35_M1_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			M(VID=37, Ver=0, File='DV37_SOL35_M2_V0.sd')
+			M(VID=105, Ver=0, File='DV105_SOL35_M2_V0.sd')
+		$end 'SubData'
+	$end 'M'
+$end 'SolutionBlock2'
+$begin '$index$'
+	$begin '$index$'
+		BlockMapName(pos=1696, lin=41, lvl=0)
+		SolutionBlock2(pos=4708, lin=156, lvl=0)
+		SolutionBlock3(pos=3901, lin=116, lvl=0)
+		SolutionBlock4(pos=2076, lin=47, lvl=0)
+		SolutionBlock1(pos=370, lin=1, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=5408, lin=188, lvl=0)
+	$end '$index$'
+$end '$index$'

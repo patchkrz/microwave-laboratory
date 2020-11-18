@@ -1,0 +1,7 @@
+$begin 'ValidationCache'
+	$begin 'OneValidationResult'
+		Variation='outer_R=\'7mm\' pin_R=\'2mm\' pinH=\'10mm\' teflon_R=\'6.7000000000000002mm\' teflonH=\'8mm\''
+		Status=true
+		FileName='VI4883004160568871714.tmp'
+	$end 'OneValidationResult'
+$end 'ValidationCache'
